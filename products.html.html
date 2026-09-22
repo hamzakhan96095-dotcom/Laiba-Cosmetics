@@ -1,0 +1,1107 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products - Laiba Cosmetics</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #e91e63;
+        }
+
+        .hero {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .category {
+            margin-bottom: 55px;
+        }
+
+        .category h2 {
+            font-size: 28px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #e91e63;
+            padding-bottom: 10px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+            text-align: center;
+        }
+
+        .product h3 {
+            font-size: 19px;
+            margin-bottom: 12px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            color: #e91e63;
+            font-size: 21px;
+            font-weight: bold;
+            margin: 12px 0;
+        }
+
+        .order {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .order:hover {
+            opacity: 0.85;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #777;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 800px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .product-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="logo">
+            Laiba Cosmetics
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h1>Our Products</h1>
+
+        <p>Laiba Cosmetics Product Range</p>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+    <div class="container">
+
+
+        <!-- REGULAR SACHET - BOX PACK -->
+        <section class="category">
+
+            <h2>Regular Sachet - Box Pack</h2>
+
+            <div class="product-grid">
+
+<div class="product">
+
+    <img src="Images/skin-polish.png"
+         alt="Skin Polish"
+         class="product-image">
+
+    <h3>Skin Polish</h3>
+
+    <div class="price">Rs. 40</div>
+
+    <p class="note">24 PCS @ Rs. 960</p>
+
+    <a class="order"
+       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Skin%20Polish"
+       target="_blank">
+        Order on WhatsApp
+    </a>
+
+</div>
+
+
+                <div class="product">
+
+                    <h3>Foot Scrub</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Foot%20Scrub"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+
+                <div class="product">
+
+                    <h3>Fruity Urgent Facial</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Fruity%20Urgent%20Facial"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+
+                <div class="product">
+
+                    <h3>Multani Miti Powder</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Miti%20Powder"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+
+                <div class="product">
+
+                    <h3>New Fast Glow</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20New%20Fast%20Glow"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+
+                <div class="product">
+
+                    <h3>Whitening Urgent Facial</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Whitening%20Urgent%20Facial"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REGULAR SACHET - PLASTIC PACK -->
+        <section class="category">
+
+            <h2>Regular Sachet - Plastic Pack</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Black Mask</h3>
+                    <div class="price">Rs. 40</div>
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Black%20Mask"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Facial Cream</h3>
+                    <div class="price">Rs. 40</div>
+                    <p class="note">24 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Facial%20Cream"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Miti</h3>
+                    <div class="price">Rs. 40</div>
+                    <p class="note">24+2 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Miti"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Bleach Cream</h3>
+                    <div class="price">Rs. 40</div>
+                    <p class="note">24+4 PCS @ Rs. 960</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Bleach%20Cream"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEW RANGE -->
+        <section class="category">
+
+            <h2>New Range Sachet</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Multani Mitti + Haldi</h3>
+                    <div class="price">Rs. 54</div>
+                    <p class="note">24 PCS @ Rs. 1300</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Mitti%20%2B%20Haldi"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Mitti + Cool Mint</h3>
+                    <div class="price">Rs. 75</div>
+                    <p class="note">24 PCS @ Rs. 1800</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Mitti%20%2B%20Cool%20Mint"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>New Fast Glow - Serum Pack</h3>
+                    <div class="price">Rs. 54</div>
+                    <p class="note">24 PCS @ Rs. 1300</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20New%20Fast%20Glow%20Serum"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Urgent Facial - Capsule Pack</h3>
+                    <div class="price">Rs. 54</div>
+                    <p class="note">24 PCS @ Rs. 1300</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Urgent%20Facial"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LAIBA MEHNDI -->
+        <section class="category">
+
+            <h2>Laiba Mehndi</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Laiba Mehndi - Dark Brown</h3>
+
+                    <div class="price">Rs. 40</div>
+
+                    <p class="note">12 PCS @ Rs. 480</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Laiba%20Mehndi%20Dark%20Brown"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 75 ML -->
+        <section class="category">
+
+            <h2>Jar - 75 ML</h2>
+
+            <div class="product-grid">
+
+<div class="product">
+
+    <img src="file:///C:/Users/INFO%20TECHNOLOGIES/Desktop/My%20Website/Images/skin-polish.png.png"
+         width="300">
+
+    <h3>Skin Polish</h3>
+
+    <div class="price">Rs. 380</div>
+
+    <p class="note">24 PCS @ Rs. 9120</p>
+
+</div>
+
+
+                <div class="product">
+                    <h3>Foot Scrub</h3>
+                    <div class="price">Rs. 150</div>
+                    <p class="note">6 PCS @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Foot%20Scrub%2075ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Facial Cream</h3>
+                    <div class="price">Rs. 150</div>
+                    <p class="note">6 PCS @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Facial%20Cream%2075ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Miti</h3>
+                    <div class="price">Rs. 150</div>
+                    <p class="note">6 PCS @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Miti%2075ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Black Mask</h3>
+                    <div class="price">Rs. 150</div>
+                    <p class="note">6 PCS @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Black%20Mask%2075ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Haldi Ubton</h3>
+                    <div class="price">Rs. 150</div>
+                    <p class="note">6 PCS @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Haldi%20Ubton%2075ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 300 ML -->
+        <section class="category">
+
+            <h2>Jar - 300 ML</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+
+    <img src="Images/skin-polish.png"
+         alt="Skin Polish"
+         class="product-image">
+
+    <h3>Skin Polish</h3>
+
+    <div class="price">Rs. 380</div>
+
+    <p class="note">24 PCS @ Rs. 9120</p>
+
+    <a class="order"
+       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Skin%20Polish%20300ML"
+       target="_blank">
+        Order on WhatsApp
+    </a>
+
+</div>
+
+
+                <div class="product">
+                    <h3>Foot Scrub</h3>
+                    <div class="price">Rs. 380</div>
+                    <p class="note">24 PCS @ Rs. 9120</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Foot%20Scrub%20300ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Facial Cream</h3>
+                    <div class="price">Rs. 380</div>
+                    <p class="note">24 PCS @ Rs. 9120</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Facial%20Cream%20300ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Miti</h3>
+                    <div class="price">Rs. 380</div>
+                    <p class="note">24 PCS @ Rs. 9120</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Miti%20300ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Black Mask</h3>
+                    <div class="price">Rs. 380</div>
+                    <p class="note">24 PCS @ Rs. 9120</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Black%20Mask%20300ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Haldi Ubton</h3>
+                    <div class="price">Rs. 380</div>
+                    <p class="note">24 PCS @ Rs. 9120</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Haldi%20Ubton%20300ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 500 ML -->
+        <section class="category">
+
+            <h2>Jar - 500 ML</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Skin Polish</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Skin%20Polish%20500ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Foot Scrub</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Foot%20Scrub%20500ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Urgent Facial</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Urgent%20Facial%20500ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Whitening Scrub</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Whitening%20Scrub"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Fast Glow</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Fast%20Glow"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Massage Cream</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Massage%20Cream"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Double Action</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Double%20Action"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Bleach Cream</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">4 PCS @ Rs. 3600</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Bleach%20Cream%20500ML"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Mitti - Haldi</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 PCS @ Rs. 5400</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Mitti%20Haldi"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BLEACH -->
+        <section class="category">
+
+            <h2>Bleach - 100 ML</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Charcol Bleach</h3>
+                    <div class="price">Rs. 200</div>
+                    <p class="note">88 PCS @ Rs. 17600</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Charcol%20Bleach"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Hand &amp; Foot Bleach</h3>
+                    <div class="price">Rs. 200</div>
+                    <p class="note">88 PCS @ Rs. 17600</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Hand%20%26%20Foot%20Bleach"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HAIR REMOVAL -->
+        <section class="category">
+
+            <h2>Hair Removal Cream</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Hair Removal Cream - Lemon</h3>
+                    <div class="price">Rs. 20</div>
+                    <p class="note">36 PCS @ Rs. 720</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Hair%20Removal%20Cream%20Lemon"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Hair Removal Cream - Rose</h3>
+                    <div class="price">Rs. 20</div>
+                    <p class="note">36 PCS @ Rs. 720</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Hair%20Removal%20Cream%20Rose"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FACIAL KIT -->
+        <section class="category">
+
+            <h2>Laiba Facial Kit</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Gold Facial Kit</h3>
+                    <div class="price">Rs. 900</div>
+                    <p class="note">6 BOX @ Rs. 900</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Gold%20Facial%20Kit"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ARCHI -->
+        <section class="category">
+
+            <h2>Archi Range</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Archi Pearl Powder</h3>
+                    <div class="price">Rs. 50</div>
+                    <p class="note">10 PCS @ Rs. 500</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Archi%20Pearl%20Powder"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Archi Serum</h3>
+                    <div class="price">Rs. 90</div>
+                    <p class="note">12 PCS @ Rs. 1080</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Archi%20Serum"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TRANSPARENT FACE WASH -->
+        <section class="category">
+
+            <h2>Transparent Face Wash</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Anti Acne Face Wash</h3>
+                    <div class="price">Rs. 220</div>
+                    <p class="note">24 PCS @ Rs. 5280</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Anti%20Acne%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Active Neem Face Wash</h3>
+                    <div class="price">Rs. 220</div>
+                    <p class="note">24 PCS @ Rs. 5280</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Active%20Neem%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Whitening Face Wash</h3>
+                    <div class="price">Rs. 220</div>
+                    <p class="note">24 PCS @ Rs. 5280</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Whitening%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Orange Peel Face Wash</h3>
+                    <div class="price">Rs. 220</div>
+                    <p class="note">24 PCS @ Rs. 5280</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Orange%20Peel%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CREAMY FACE WASH -->
+        <section class="category">
+
+            <h2>Creamy Face Wash</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Whitening Face Wash</h3>
+                    <div class="price">Rs. 320</div>
+                    <p class="note">6 PCS @ Rs. 1920</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Whitening%20Creamy%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Anti Acne Face Wash</h3>
+                    <div class="price">Rs. 320</div>
+                    <p class="note">6 PCS @ Rs. 1920</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Anti%20Acne%20Creamy%20Face%20Wash"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LAIBA TISSUE -->
+        <section class="category">
+
+            <h2>Laiba Tissue</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Laiba Majic Tissue</h3>
+                    <div class="price">Rs. 35</div>
+                    <p class="note">30 PCS @ Rs. 1050</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Laiba%20Majic%20Tissue"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TUBE -->
+        <section class="category">
+
+            <h2>Tube</h2>
+
+            <div class="product-grid">
+
+                <div class="product">
+                    <h3>Skin Polish</h3>
+                    <div class="price">Rs. 190</div>
+                    <p class="note">6 PCS @ Rs. 1140</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Skin%20Polish%20Tube"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Facial Cream</h3>
+                    <div class="price">Rs. 190</div>
+                    <p class="note">6 PCS @ Rs. 1140</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Facial%20Cream%20Tube"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+
+                <div class="product">
+                    <h3>Multani Miti Haldi</h3>
+                    <div class="price">Rs. 190</div>
+                    <p class="note">6 PCS @ Rs. 1140</p>
+
+                    <a class="order"
+                       href="https://wa.me/923164577887?text=I%20want%20to%20order%20Multani%20Miti%20Haldi%20Tube"
+                       target="_blank">
+                        Order on WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Laiba Cosmetics. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
